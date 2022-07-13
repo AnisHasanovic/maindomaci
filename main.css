@@ -1,0 +1,297 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: "Rubik", sans-serif;
+    
+}
+.header {
+
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 50% auto;
+    grid-template-rows: 8% auto;
+    grid-template-areas: 
+    "header header"
+    ". headerright";
+    background-image: url(maina.png);
+    background-repeat: no-repeat;
+}
+
+.zaglavlje {
+
+    grid-area: header;
+}
+
+.zaglavlje2 {
+
+ display: flex;
+ justify-content: center;
+ gap: 30px;
+
+
+}
+.zaglavlje2 h2, h4 {
+
+    margin: 0;
+    padding-top: 1%;
+    cursor: pointer;
+}
+
+.zaglavlje2 h2 {
+
+    padding-right: 22%;
+    font-weight: 900;
+
+}
+.zaglavlje2 h4 {
+
+    font-weight: 600;
+    padding-top: 1.6%;
+    font-size: 14px;
+    color: #919294;
+    
+}
+#tacka {
+
+    background: none;
+    color: #b49c73;
+}
+
+.zaglavlje2 h4:hover {
+
+    color: black;
+}
+
+.headerdesnideo {
+    
+    grid-area: headerright;
+}
+
+.zaglavljekontent {
+
+    display: grid;
+    margin-top: 21%;
+    margin-left: 11%;
+    
+}
+.zaglavljekontent h1 {
+
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+#wefight {
+
+    background: none;
+    color: #b49c73;
+    font-weight: bolder;
+    
+}
+
+.zaglavljekontent h2 {
+
+    color: #767779;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-left: 5%;
+}
+
+#button {
+
+    width: 20%;
+    border: 2px solid #b49c73;
+    background-color: #b49c73;
+    color: white;
+    font-weight: 800;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 11px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    padding: 1.5%;
+    margin-left: 5%;
+}
+    
+#button:hover {
+    
+    background-color: #c5ab7e;
+    border-color: #c5ab7e;
+    }
+#button:active {
+
+    background-color: #0062cc;
+    border-color: #0062cc;
+}
+
+#colorlib {
+
+    color: #b49c73;
+    border-bottom: 1px solid #b49c73;
+    background: none;
+    cursor: pointer;
+}
+
+.main {
+
+    display: grid;
+    width: 100vw;
+    height: 130vh;
+    grid-template-columns: 14% 30% 30% 10%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    ". mainupleft mainupright mainupright"
+    ".maindownleft maindownright maindownright";
+    background-color: #37373f;
+
+}
+
+
+.main1 {
+    line-height: 1.6;
+    grid-area: mainupleft;
+    margin-left: 33px;
+
+
+
+}
+.main1 h1 {
+    margin-top: 15%;
+    margin-bottom: -2%;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #b49c73;
+    font-weight: 800;
+}
+#mainp {
+    margin-top: 4%;
+    color: #b2b2b8;
+    margin-left: 18%;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+#main {
+   
+    font-weight: 500;
+    color: #ffffff;
+    background: none;
+
+}
+#button2 {
+
+    width: 22%;
+    height: 4%;
+    border: 2px solid #b49c73;
+    background-color: #b49c73;
+    color: white;
+    font-weight: 800;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 11px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    padding: 1.5%;
+    padding-top: 2%;
+    margin-left: 17%;}
+
+#button2:hover {
+    
+    background-color: #c5ab7e;
+    border-color: #c5ab7e;
+}
+#button2:active {
+    
+    background-color: #0062cc;
+    border-color: #0062cc;
+    }
+
+.main2 {
+
+    grid-area: mainupright;
+
+}
+.krug1, .krug2, .krug3, .krug4 {
+
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid #5f5f65;
+    background-color: #5f5f65;
+    margin: 13px;
+    margin-left: 19%;
+
+}
+.krug1 {
+
+    margin-top: 12%;
+}
+.main3 {
+
+    grid-area: maindownleft;
+    border: 2px solid rgb(0, 0, 0);
+}
+.main4 {
+
+    grid-area: maindownright;
+    border: 2px solid rgb(0, 192, 192);
+}
+
+.mainlower {
+
+    display: grid;
+    justify-content: center;
+    width: 100vw;
+    height: 70vh;
+    background-color: #2d2d34;
+}
+
+#mainlower {
+
+    display: grid;
+    grid-area: mainlower;
+    width: 63vw;
+    height: 450px;
+    border: 2px solid black;
+}
+
+.footer {
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 160vh;
+    background-color: #37373f;
+}
+
+.footer1 {
+
+    display: grid;
+    width: 63vw;
+    height: 45vh;
+    border: 2px solid red;
+}
+
+.footer2 {
+    
+    display: grid;
+    width: 63vw;
+    height: 45vh;
+    border: 2px solid red;
+}
+
+.footer3 {
+    
+    display: grid;
+
+    width: 63vw;
+    height: 65vh;
+    border: 2px solid red;
+}
